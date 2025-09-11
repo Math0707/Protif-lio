@@ -181,6 +181,14 @@ footer{padding:40px 0 90px}
 .brand{font-weight:900;font-size:32px;margin-bottom:10px}
 .fineprint{color:var(--muted);font-size:13.5px;max-width:640px;line-height:1.9}
 
+
+.proj-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ou "contain" se preferir ajustar sem cortar */
+  border-radius: 12px;
+}
+
 /* granulado sutil */
 .grain{pointer-events:none;position:fixed;inset:0;z-index:2;opacity:var(--grain-op);mix-blend-mode:soft-light;background-image:url("data:image/svg+xml;utf8,\
   <svg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'>\
